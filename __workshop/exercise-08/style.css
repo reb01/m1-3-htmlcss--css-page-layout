@@ -1,38 +1,89 @@
 body {
-  margin: 0;
-  font-family: Poppins, sans-serif;
+    margin: 0;
+    font-family: Poppins, sans-serif;
 }
 
 .header {
+    text-align: center;
+    padding: 18px;
+    color: #fff;
+    background-color: #2196f3;
+    box-shadow: 0 0 4px 0 #ddd;
 }
 
 .registration-form {
+    padding: 18px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 50px;
+    box-shadow: 0 0 5px 0 rgb(175, 171, 171);
+    margin-bottom: 20px;
 }
 
 .text-field {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #2e85c0;
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
 }
 
-.radio-label,
+.radio-label {
+    text-align: left;
+    margin: 20px;
+    margin-left: 0;
+}
+
 .checkbox-label {
+    text-align: left;
+    margin: 20px;
+    margin-left: 0;
 }
 
 label {
+    display: block;
+    text-align: center;
 }
 
 .section {
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
 }
 
-.section > label {
+.section>label {
+    text-align: left;
 }
 
 select {
+    font-size: 1rem;
+    margin-left: 10px;
 }
 
 textarea {
+    display: block;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 0;
+    font-size: 1rem;
+    min-height: 100px;
+    margin-top: 10px;
 }
 
 .form-button {
+    padding: 18px 40px;
+    font-size: 1rem;
+    border: 1px solid #0096fb;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .form-button:hover {
+    background-color: #0096fb;
+    color: #fff;
 }

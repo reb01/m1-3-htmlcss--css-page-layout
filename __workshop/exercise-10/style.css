@@ -1,16 +1,55 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .main {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .fast {
+    animation: slideIn 1s ease-in-out;
 }
 
 .cool {
+    padding: 20px;
+    border: 0;
+    background-color: rgb(41, 137, 233);
+    color: white;
+    box-shadow: 2px 4px 10px 4px #c4bbbb;
+    border-radius: 6px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    from {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.2);
+    }
+    80% {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.cool:hover {
+    animation: bounce 1s ease-in-out;
 }

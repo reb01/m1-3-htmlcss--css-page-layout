@@ -1,7 +1,33 @@
 body {
-  margin: 0;
+    margin: 0;
 }
 
-.mobile-nav-button img {
-  width: 18px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 25px;
+    padding-right: 35px;
+}
+
+.desktop-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.desktop-nav ul li {
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+@media (min-width: 800px) {
+    .mobile-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 799px) {
+    .desktop-nav {
+        display: none;
+    }
 }

@@ -1,0 +1,29 @@
+ * {
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+     ;
+ }
+ 
+ .topnav {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     background-color: #3a3633;
+ }
+ 
+ .topnav a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 12px;
+     text-decoration: none;
+     font-size: 20px;
+     margin: 0 20px;
+ }
+ 
+ .topnav a:hover {
+     opacity: 0.4;
+     transition: 0.2s;
+     animation-timing-function: ease-in-out;
+ }

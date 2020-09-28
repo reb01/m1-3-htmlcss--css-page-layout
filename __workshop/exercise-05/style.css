@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: calc(100% / 3);
+    box-sizing: border-box;
+}
